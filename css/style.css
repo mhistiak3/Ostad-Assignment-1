@@ -1,0 +1,145 @@
+/* Sub Dropdown */
+/* 5) Create a navbar via Bootstrap and it must have a dropdown menu. */
+.dropdown-menu li {
+  position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  right: 100%;
+  top: -7px;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+.navbar-bg {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: white;
+}
+.nav-link {
+  color: white !important;
+}
+/* hero */
+/* 4) Put text inside an h1 tag and give it a background color. */
+.heading-design {
+  font-size: 50px;
+  max-width: 70%;
+  margin: auto;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: white;
+}
+/* 3) Create a paragraph text and its color will be red. */
+.paragraph-design {
+  max-width: 70%;
+  margin: auto;
+  font-size: 20px;
+  color: red;
+}
+/* 2) Create six buttons by Bootstrap Each button should have different colors and properties. */
+.buttons {
+  max-width: 40%;
+  margin: auto;
+  background-color: hsla(0, 0%, 92%, 0.196);
+}
+.buttons > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+/* 1 */
+.button-1 {
+  background-color: #ee0979;
+  color: white;
+  border: 2px solid #ee0979;
+}
+.button-1:hover {
+  border: 2px solid #ee0979;
+}
+/* 2 */
+.button-2 {
+  background-color: #fff;
+  color: black;
+  border: 2px solid #ff6a00;
+}
+.button-2:hover {
+  background-color: #ff6a00;
+  color: white;
+}
+/* 3 */
+.button-3 {
+  border-radius: 20px;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: white;
+  padding: 10px 30px;
+  font-weight: 700;
+  transition: 0.5;
+}
+.button-3:hover {
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  color: white;
+}
+/* 4 */
+.button-4 {
+  position: relative;
+  background-color: #ff6a00;
+  color: white;
+  transition: 0.5s;
+  box-shadow: 0 0 10px #ff6a00;
+  border: 2px solid #ff6a00;
+}
+.button-5 {
+  width: 150px;
+  height: 50px;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+}
+.button-5 div {
+  background-color: white;
+  width: 95%;
+  height: 90%;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.5s;
+}
+.button-5 > div:hover {
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  color: white;
+}
+/* 6 */
+.button-6 {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: rgba(30, 30, 30, 0.388);
+  border-radius: 3px;
+  padding: 10px;
+  transition: 0.5s;
+}
+.button-6:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.301);
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* 6) Create a forms Input group through Bootstrap and it must have Sizing set to Small. */
+.form-design{
+  max-width: 50%;
+  margin: auto;
+}

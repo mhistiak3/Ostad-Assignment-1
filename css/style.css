@@ -70,24 +70,25 @@
 /* 3 */
 .button-3 {
   border-radius: 20px;
-  background: linear-gradient(to right, #ff6a00, #ee0979);
+    background: linear-gradient(to right, #be93c5, #7bc6cc);
   color: white;
   padding: 10px 30px;
   font-weight: 700;
   transition: 0.5;
 }
 .button-3:hover {
-  background: linear-gradient(to right, #ee0979, #ff6a00);
+     background: linear-gradient(to right, #3fada8,#808080);
+
   color: white;
 }
 /* 4 */
 .button-4 {
   position: relative;
-  background-color: #ff6a00;
+  background-color: #4ECDC4;
   color: white;
   transition: 0.5s;
-  box-shadow: 0 0 10px #ff6a00;
-  border: 2px solid #ff6a00;
+  box-shadow: 0 0 20px #4ECDC4;
+  border: 2px solid #4ECDC4;
 }
 .button-5 {
   width: 150px;
